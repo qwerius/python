@@ -1,5 +1,6 @@
 import { defineConfig } from "vitepress";
-import mathjax3 from "markdown-it-mathjax3";
+import navigationPlugin from './plugins/navigation';
+
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -9,6 +10,7 @@ export default defineConfig({
     // Menambahkan favicon.ico
     ["link", { rel: "icon", href: "/logo.png" }],
     ["title", {}, "blueink"], // Paksa title kosong di HTML
+    ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.3/dist/katex.min.css' }],
   ],
   markdown: {
     math: true,
@@ -21,6 +23,7 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Content", link: "/dasar_python/" },
+      { text: "Basic Machine Learning", link: "/basic_machine_learning/" },
     ],
 
     sidebar: {
@@ -28,7 +31,7 @@ export default defineConfig({
         {
           text: "Content",
           items: [
-            { text: "Python", link: "/dasar_python/index" },
+            { text: "Python", link: "/dasar_python/" },
             //{ text: 'Intro NumPy dalam Komputasi', link: '/dasar_python/numpy' },
             {
               text: "NumPy",
@@ -82,16 +85,27 @@ export default defineConfig({
           collapsed: false,
         },
       ],
+      "/basic_machine_learning/": [
+        {
+          text: "Basic Machine Learning",
+          items: [{ text: "Umum", link: "/basic_machine_learning/" },
+            {
+              text: "Aljabar Linear",
+              link: "/basic_machine_learning/aljabar_linear",
+            },
+          ],
+        },
+      ],
       "/vue/": [
         {
           text: "Vue",
-          items: [{ text: "Vue Introduction", link: "/vue/index" }],
+          items: [{ text: "Vue Introduction", link: "/vue/" }],
         },
       ],
       "/nginx/": [
         {
           text: "nginx",
-          items: [{ text: "Vue Introduction", link: "/nginx/index" }],
+          items: [{ text: "Vue Introduction", link: "/nginx/" }],
         },
       ],
     },
@@ -108,4 +122,6 @@ export default defineConfig({
       provider: "local",
     },
   },
+  plugins: [navigationPlugin()],
+  
 });

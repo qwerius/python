@@ -1,5 +1,6 @@
 
 # Numpy Arrays
+😊😊😊
 ## Dasar-Dasar NumPy Arrays
 
 Manipulasi data dalam Python hampir identik dengan manipulasi array NumPy. Bahkan, Pandas dibangun di atas array NumPy. 
@@ -905,4 +906,3 @@ Memori NumPy Array: 4000 bytes
 
 ---
 
-😊
