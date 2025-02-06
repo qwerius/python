@@ -7,12 +7,12 @@ Aljabar linear adalah pondasi yang paling dasar dalam statistik maupun machine l
 **Aljabar linear** adalah cabang matematika yang mempelajari **vektor**, **matriks**, **ruang vektor**, **transformasi linear**, dan **sistem persamaan linear**. Aljabar linear menyediakan alat dan konsep yang penting untuk memodelkan dan menyelesaikan masalah dalam berbagai bidang, termasuk fisika, ilmu komputer, statistik, dan **machine learning**.
 
 Beberapa konsep dasar dalam aljabar linear meliputi:
-1. **Vektor**: Objek matematika yang memiliki magnitude (besar) dan arah.
-2. **Matriks**: Susunan bilangan dalam bentuk baris dan kolom.
-3. **Operasi Matriks**: Penjumlahan, perkalian, invers, dan transpose.
+1. **Vektor**. Objek matematika yang memiliki magnitude (besar) dan arah.
+2. **Matriks**. Susunan bilangan dalam bentuk baris dan kolom.
+3. **Operasi Matriks**. Penjumlahan, perkalian, invers, dan transpose.
 4. **Ruang Vektor**: Kumpulan vektor yang memenuhi aturan tertentu.
-5. **Transformasi Linear**: Fungsi yang memetakan vektor dari satu ruang vektor ke ruang vektor lain.
-6. **Nilai Eigen dan Vektor Eigen**: Konsep yang berkaitan dengan skalar dan vektor yang mempertahankan arahnya setelah transformasi linear.
+5. **Transformasi Linear**. Fungsi yang memetakan vektor dari satu ruang vektor ke ruang vektor lain.
+6. **Nilai Eigen dan Vektor Eigen**. Konsep yang berkaitan dengan skalar dan vektor yang mempertahankan arahnya setelah transformasi linear.
 
 ---
 
@@ -52,31 +52,31 @@ Aljabar linear adalah fondasi utama dalam **machine learning** karena sebagian b
 
 ### Contoh Penerapan Aljabar Linear dalam Machine Learning
 
-1. **Regresi Linear**:
+1. **Regresi Linear**
    - Model regresi linear memprediksi output ($\mathbf{y}$) sebagai kombinasi linear dari fitur input ($\mathbf{X}$) dan vektor bobot ($\mathbf{w}$):
      $[
      \mathbf{y} = \mathbf{Xw} + \mathbf{b}
      ]$
    - Di sini, $\mathbf{X}$ adalah matriks data, $\mathbf{w}$ adalah vektor bobot, dan $\mathbf{b}$ adalah bias.
 
-2. **Neural Networks**:
+2. **Neural Networks**
    - Setiap lapisan dalam neural network melakukan operasi linear ($\mathbf{Wx} + \mathbf{b}$), di mana $\mathbf{W}$ adalah matriks bobot, $\mathbf{x}$ adalah vektor input, dan $\mathbf{b}$ adalah bias.
 
-3. **PCA (Principal Component Analysis)**:
+3. **PCA (Principal Component Analysis)**
    - PCA menggunakan dekomposisi matriks untuk menemukan arah (vektor eigen) yang memaksimalkan varians data, sehingga mengurangi dimensi data.
 
 
 ## Struktur Data dalam Aljabar Linear:
 
-1. **Vektor**:
+1. **Vektor**
    Vektor adalah objek dalam ruang vektor yang memiliki magnitude (panjang) dan arah. Mereka dapat diwakili sebagai kumpulan bilangan yang memiliki aturan penjumlahan dan perkalian dengan skalar. Vektor bisa dalam ruang 2D (seperti bidang) atau ruang 3D (seperti ruang tiga dimensi), tetapi konsep vektor tidak terbatas pada dimensi itu saja.
-2. **Ruang Vektor**:
+2. **Ruang Vektor**
    Ruang vektor adalah himpunan vektor yang memenuhi aksioma-aksioma aljabar linear. Ruang tersebut dapat memiliki dimensi yang berbeda-beda. Misalnya, ruang vektor 2D terdiri dari semua vektor yang dapat diwakili oleh dua bilangan, dan ruang vektor 3D terdiri dari semua vektor yang dapat diwakili oleh tiga bilangan.
-3. **Transformasi Linear**:
+3. **Transformasi Linear**
    Transformasi linear adalah fungsi matematika antara dua ruang vektor yang memelihara sifat-sifat aljabar linear. Transformasi ini memetakan vektor dari satu ruang ke ruang vektor lainnya, mempertahankan operasi penjumlahan vektor dan perkalian dengan skalar.
-4. **Matriks**:
+4. **Matriks**
    Matriks adalah representasi aljabar linear yang terdiri dari baris dan kolom bilangan. Matriks dapat digunakan untuk merepresentasikan transformasi linear dan sistem persamaan linear. Operasi pada matriks termasuk penjumlahan, perkalian, dan invers matriks.
-5. **Tensor**:
+5. **Tensor**
    Tensor adalah objek matematika yang umumnya memperluas konsep vektor dan matriks ke dimensi yang lebih tinggi. Mereka digunakan untuk merepresentasikan dan memanipulasi data yang memiliki struktur multidimensi. Tensor dapat memiliki berbagai orde, seperti tensor skalar (orde 0), vektor (orde 1), matriks (orde 2), dan tensor berorde tinggi lainnya.
 
 
@@ -236,22 +236,22 @@ Norm v1: 2.2361
 
 ### Penjelasan Output
 
-1. **Hasil Penjumlahan**:
+1. **Hasil Penjumlahan**
    $$
    \begin{bmatrix} 1 \\ 2 \end{bmatrix} + \begin{bmatrix} 3 \\ 4 \end{bmatrix} = \begin{bmatrix} 4 \\ 6 \end{bmatrix}
    $$
 
-2. **Hasil Perkalian dengan Skalar**:
+2. **Hasil Perkalian dengan Skalar**
    $$
    2 \times \begin{bmatrix} 1 \\ 2 \end{bmatrix} = \begin{bmatrix} 2 \\ 4 \end{bmatrix}
    $$
 
-3. **Dot Product**:
+3. **Dot Product**
    $$
    1 \times 3 + 2 \times 4 = 11
    $$
 
-4. **Norm v1**:
+4. **Norm v1**
    $$
    \sqrt{1^2 + 2^2} = \sqrt{5} \approx 2.2361
    $$
@@ -338,18 +338,16 @@ $$
 
 ### Penjelasan:
 
-Maaf atas kebingungannya! Saya paham sekarang bahwa yang Anda inginkan adalah hanya **dua lapisan** di dalam ruang 3D. Mari kita perbaiki visualisasi tersebut dan pastikan hanya ada dua lapisan yang sesuai dengan tensor yang Anda sebutkan.
-
 Tensor ini hanya memiliki **dua lapisan**, yaitu lapisan pertama di **$k = 0$** dan lapisan kedua di **$k = 1$**. Masing-masing lapisan berukuran $3 \times 4$, yang berarti ada **12 elemen per lapisan**.
 
 
-1. **Tensor 3D**:
+1. **Tensor 3D**
    - Memastikan hanya ada **2 lapisan** sesuai dengan tensor yang diberikan, yaitu $\mathbf{T}$ yang terdiri dari **2 blok** matriks $3 \times 4$.
    
-2. **Indeks $z$**:
-   - Variabel $z$ diatur dengan dua nilai, yaitu **0 dan 1**, yang mewakili dua lapisan, satu di $z = 0$ dan satu lagi di $z = 1$.
+2. **Indeks $z$**
+   - Variabel $z$ diatur dengan dua nilai, yaitu **0 dan 1**, yang mewakili dua lapisan/slice, satu di $z = 0$ dan satu lagi di $z = 1$.
    
-3. **Grid**:
+3. **Grid**
    - **`x` dan `y`** mengatur grid koordinat dalam 2D untuk kolom dan baris.
    - **`z`** berfungsi sebagai kedalaman dan hanya berisi **2 lapisan**.
 
@@ -358,12 +356,12 @@ Tensor ini hanya memiliki **dua lapisan**, yaitu lapisan pertama di **$k = 0$** 
    - Plot akan menunjukkan **2 lapisan**, yang hanya berisi 12 elemen per lapisan.
 
 
-### Aplikasi Tensor Orde Tiga:
+### Aplikasi Tensor Orde Tiga
 Tensor seperti ini sering digunakan dalam berbagai aplikasi, seperti:
 - **Citra berwarna (RGB)**: Setiap lapisan bisa merepresentasikan saluran warna yang berbeda (misalnya, merah, hijau, dan biru), dengan baris dan kolom mewakili dimensi spasial citra.
 - **Video**: Di mana setiap lapisan mewakili **frame** yang berbeda dari video, dan setiap frame berisi **piksel** yang disusun dalam baris dan kolom.
 
-### Pemanfaatan Tensor 3D di PyTorch:
+### Pemanfaatan Tensor 3D di PyTorch
 Di **PyTorch**, tensor 3D sering digunakan dalam **deep learning** untuk merepresentasikan data dengan lebih dari dua dimensi (misalnya, citra atau video). Untuk membentuk tensor 3D seperti di atas, Anda dapat menggunakan kode berikut di PyTorch:
 
 ```python
@@ -613,9 +611,9 @@ Di sini, $x\_1, x\_2, \ldots, x\_n$ adalah komponen-komponen vektor $\mathbf{x}$
 
 Beberapa poin penting tentang norm $L^2$:
 
-* **Sifat Euclidean:** $L^2$ norm dihitung dengan mengambil akar kuadrat dari jumlah kuadrat dari komponen vektor.
-* **Representasi Geometris:** Dalam ruang dua dimensi ($\mathbb{R}^2$), norm $L^2$ dari vektor $(x, y)$ adalah panjang garis lurus dari titik awal ke titik akhir yang diwakili oleh vektor tersebut di dalam ruang Euclidean.
-* **Kasus Khusus di Bidang Machine Learning:** $L^2$ norm sering digunakan dalam konteks pembelajaran mesin sebagai fungsi objektif atau fungsi kehilangan (loss function), terutama dalam regularisasi seperti ridge regression, di mana tujuannya adalah untuk meminimalkan $L^2$ norm dari parameter.
+* **Sifat Euclidean**. $L^2$ norm dihitung dengan mengambil akar kuadrat dari jumlah kuadrat dari komponen vektor.
+* **Representasi Geometris**. Dalam ruang dua dimensi ($\mathbb{R}^2$), norm $L^2$ dari vektor $(x, y)$ adalah panjang garis lurus dari titik awal ke titik akhir yang diwakili oleh vektor tersebut di dalam ruang Euclidean.
+* **Kasus Khusus di Bidang Machine Learning**. $L^2$ norm sering digunakan dalam konteks pembelajaran mesin sebagai fungsi objektif atau fungsi kehilangan (loss function), terutama dalam regularisasi seperti ridge regression, di mana tujuannya adalah untuk meminimalkan $L^2$ norm dari parameter.
 
 Norm $L^2$ memiliki banyak aplikasi dalam matematika, fisika, dan ilmu komputer, terutama dalam pengolahan sinyal, pembelajaran mesin, optimisasi, dan bidang-bidang lain yang melibatkan perhitungan jarak atau kehilangan dalam ruang vektor.
 
@@ -632,9 +630,9 @@ Di sini, $x\_1, x\_2, \ldots, x\_n$ adalah komponen-komponen vektor $\mathbf{x}$
 
 Beberapa poin penting tentang norma $L^1$:
 
-* **Sifat Manhattan:** Norma $L^1$ dihitung dengan menjumlahkan nilai absolut dari perbedaan antara komponen-komponen vektor.
-* **Representasi Geometris:** Dalam ruang dua dimensi ($\mathbb{R}^2$), norma $L^1$ dari vektor $(x, y)$ adalah jarak yang ditempuh jika hanya diizinkan berjalan sepanjang garis horizontal dan vertikal (seperti jalan dalam kota).
-* **Kasus Khusus di Bidang Machine Learning:** Norma $L^1$ sering digunakan dalam konteks regularisasi, terutama dalam LASSO (Least Absolute Shrinkage and Selection Operator), di mana tujuannya adalah untuk meminimalkan nilai dari norma $L^1$ dari parameter.
+* **Sifat Manhattan.** Norma $L^1$ dihitung dengan menjumlahkan nilai absolut dari perbedaan antara komponen-komponen vektor.
+* **Representasi Geometris.** Dalam ruang dua dimensi ($\mathbb{R}^2$), norma $L^1$ dari vektor $(x, y)$ adalah jarak yang ditempuh jika hanya diizinkan berjalan sepanjang garis horizontal dan vertikal (seperti jalan dalam kota).
+* **Kasus Khusus di Bidang Machine Learning.** Norma $L^1$ sering digunakan dalam konteks regularisasi, terutama dalam LASSO (Least Absolute Shrinkage and Selection Operator), di mana tujuannya adalah untuk meminimalkan nilai dari norma $L^1$ dari parameter.
 
 Norma $L^1$ memiliki berbagai aplikasi dalam matematika, rekayasa, optimisasi, dan bidang-bidang lain yang melibatkan perhitungan jarak atau regularisasi dalam ruang vektor.
 
@@ -659,7 +657,7 @@ Max Norm sering digunakan dalam konteks pembelajaran mesin, misalnya dalam regul
 
 Kita akan membuat contoh vektor dan menghitung Max Norm dari vektor tersebut menggunakan PyTorch.
 
-#### Langkah-langkah:
+#### Langkah-langkah
 1. Membuat vektor tensor di PyTorch.
 2. Menghitung Max Norm (Norm Maksimum) dari vektor menggunakan `torch.abs()` dan `torch.max()`.
 
@@ -729,7 +727,6 @@ Out[54]:
 ```
 0
 ```
-
 
 
 ## Matrik (Tensor ordo 2)
@@ -930,7 +927,7 @@ Misalkan kita memiliki sebuah batch gambar dengan ukuran **32 gambar**, di mana 
 - **28**: Lebar gambar dalam piksel.
 - **3**: Jumlah saluran warna (RGB).
 
-**Representasi Matematis Tensor Rank 4:**
+**Representasi Matematis Tensor Rank 4**
 
 $$
 \mathbf{T} = \begin{bmatrix}
@@ -978,7 +975,7 @@ print("Dimensi tensor batch gambar: ", images_tensor.shape)
 Dimensi tensor batch gambar:  torch.Size([32, 28, 28, 3])
 ```
 
-#### **Penjelasan Kode:**
+#### **Penjelasan Kode**
 
 - `torch.randn(batch_size, height, width, channels)` membuat tensor dengan dimensi yang sesuai dengan batch gambar. Nilai dalam tensor ini diisi dengan angka acak yang terdistribusi normal (Gaussian).
 - Tensor ini memiliki dimensi **(32, 28, 28, 3)**, yang berarti 32 gambar, masing-masing berukuran 28x28 piksel, dengan 3 saluran warna (RGB).
@@ -1207,9 +1204,9 @@ Operasi ini adalah dasar dalam pemrosesan data tensor di machine learning dan sa
 
 Misalnya, kita dapat menghitung jumlah seluruh elemen pada sebuah tensor (seperti vektor atau matriks), yang biasanya digunakan untuk mendapatkan total atau agregat dari data yang ada.
 
-### **Contoh Pengurangan Dimensi dengan Penjumlahan:**
+### **Contoh Pengurangan Dimensi dengan Penjumlahan**
 
-1. **Untuk Vektor (Tensor Orde 1):**
+1. **Untuk Vektor (Tensor Orde 1)**
    Misalkan kita memiliki vektor $\mathbf{x}$ yang terdiri dari elemen-elemen $x_1, x_2, ..., x_n$. Penjumlahan seluruh elemen vektor ini adalah:
 
    $$
@@ -1218,7 +1215,7 @@ Misalnya, kita dapat menghitung jumlah seluruh elemen pada sebuah tensor (sepert
 
    Dimana $n$ adalah panjang vektor $\mathbf{x}$. Penjumlahan ini menghasilkan nilai tunggal yang mewakili total seluruh elemen pada vektor.
 
-2. **Untuk Matriks (Tensor Orde 2):**
+2. **Untuk Matriks (Tensor Orde 2)**
    Jika kita memiliki matriks $\mathbf{X}$ berukuran $m \times n$ dengan elemen-elemen $X_{i,j}$, penjumlahan seluruh elemen dalam matriks dapat dihitung dengan:
 
    $$
@@ -1231,9 +1228,9 @@ Misalnya, kita dapat menghitung jumlah seluruh elemen pada sebuah tensor (sepert
 
 Pada PyTorch, kita bisa melakukan operasi reduction ini dengan menggunakan berbagai fungsi built-in seperti `torch.sum()`, `torch.mean()`, dan lain-lain. Misalnya:
 
-1. **Penjumlahan seluruh elemen dalam tensor (Reduction):**
+1. **Penjumlahan seluruh elemen dalam tensor (Reduction)**
 
-   - **Untuk Vektor (Tensor Orde 1):**
+   - **Untuk Vektor (Tensor Orde 1)**
      Kita dapat menghitung jumlah seluruh elemen dalam vektor menggunakan `torch.sum()`.
 
      ```python
@@ -1253,9 +1250,9 @@ Pada PyTorch, kita bisa melakukan operasi reduction ini dengan menggunakan berba
      Jumlah seluruh elemen vektor: tensor(15)
      ```
 
-2. **Penjumlahan seluruh elemen dalam Matriks (Tensor Orde 2):**
+2. **Penjumlahan seluruh elemen dalam Matriks (Tensor Orde 2)**
 
-   - **Untuk Matriks (Tensor Orde 2):**
+   - **Untuk Matriks (Tensor Orde 2)**
      Kita dapat menghitung jumlah seluruh elemen dalam matriks menggunakan `torch.sum()` dengan menghilangkan dimensi tertentu, atau langsung menghitung seluruh elemen.
 
      ```python
@@ -1273,11 +1270,11 @@ Pada PyTorch, kita bisa melakukan operasi reduction ini dengan menggunakan berba
      Jumlah seluruh elemen matriks: tensor(21)
      ```
 
-3. **Reduction berdasarkan dimensi tertentu:**
+3. **Reduction berdasarkan dimensi tertentu**
 
    Anda juga bisa melakukan **reduction berdasarkan dimensi tertentu** untuk menghasilkan hasil penjumlahan yang lebih terbatas pada dimensi tersebut.
 
-   - **Penjumlahan berdasarkan baris (dimensi 0):**
+   - **Penjumlahan berdasarkan baris (dimensi 0)**
      Kita dapat menghitung penjumlahan seluruh elemen dalam setiap baris (kolomnya akan hilang).
 
      ```python
@@ -1291,7 +1288,7 @@ Pada PyTorch, kita bisa melakukan operasi reduction ini dengan menggunakan berba
      Penjumlahan berdasarkan baris: tensor([ 6, 15])
      ```
 
-   - **Penjumlahan berdasarkan kolom (dimensi 1):**
+   - **Penjumlahan berdasarkan kolom (dimensi 1)**
      Anda bisa menghitung penjumlahan berdasarkan kolom.
 
      ```python
@@ -1333,7 +1330,7 @@ Rata-rata seluruh elemen matriks: tensor(3.5000)
 
 Untuk dua vektor $\mathbf{x}$ dan $\mathbf{y}$ yang memiliki panjang yang sama $n$, dot product dihitung dengan mengalikan elemen-elemen yang bersesuaian dari kedua vektor dan menjumlahkan hasilnya.
 
-#### **Definisi Matematis:**
+#### **Definisi Matematis**
 
 Jika $\mathbf{x} = (x_1, x_2, ..., x_n)$ dan $\mathbf{y} = (y_1, y_2, ..., y_n)$, maka dot product antara kedua vektor ini dituliskan sebagai:
 
@@ -1346,7 +1343,7 @@ Atau, dalam bentuk lainnya:
 - $\mathbf{x}^T \mathbf{y}$, yang merupakan hasil perkalian antara transpos dari vektor $\mathbf{x}$ dengan vektor $\mathbf{y}$.
 - $\langle \mathbf{x}, \mathbf{y} \rangle$, yang menyatakan dot product sebagai produk skalar antara dua vektor.
 
-#### **Interpretasi:**
+#### **Interpretasi**
 - Produk titik menghasilkan nilai skalar, bukan vektor.
 - Dot product mengukur seberapa "sejajar" dua vektor. Jika vektor-vektor tersebut lebih sejajar, produk titik mereka akan lebih besar.
 - Jika dua vektor ortogonal (mempunyai sudut 90 derajat), maka dot product mereka adalah 0.
@@ -1376,22 +1373,22 @@ print("Dot product antara x dan y:", dot_product)
 Dot product antara x dan y: tensor(32)
 ```
 
-**Penjelasan:**
+**Penjelasan**
 - Dalam contoh di atas, vektor $\mathbf{x} = [1, 2, 3]$ dan $\mathbf{y} = [4, 5, 6]$.
 - Dot product dihitung sebagai:
   $$
   (1 \times 4) + (2 \times 5) + (3 \times 6) = 4 + 10 + 18 = 32
   $$
 
-#### **Pentingnya Dot Product:**
-- **Pengukuran kesamaan vektor**: Dot product sering digunakan untuk mengukur kesamaan antara dua vektor. Dalam machine learning, ini banyak digunakan dalam algoritma seperti **regresi linier**, **support vector machines (SVM)**, atau **jaringan saraf tiruan**.
+#### **Pentingnya Dot Product**
+- **Pengukuran kesamaan vektor**. Dot product sering digunakan untuk mengukur kesamaan antara dua vektor. Dalam machine learning, ini banyak digunakan dalam algoritma seperti **regresi linier**, **support vector machines (SVM)**, atau **jaringan saraf tiruan**.
 - **Proyeksi vektor**: Dot product juga digunakan untuk menghitung panjang proyeksi satu vektor ke vektor lainnya.
 - **Kalkulasi sudut antara vektor**: Jika dot product dibagi dengan norma dari kedua vektor, kita bisa memperoleh nilai **cosine** dari sudut antara dua vektor, yang sering digunakan dalam pengukuran kesamaan teks atau gambar.
 
-#### **Dot Product dalam Higher Dimensional Tensors:**
+#### **Dot Product dalam Higher Dimensional Tensors**
 Selain vektor 1D, produk titik juga dapat diperluas untuk tensor dengan dimensi lebih tinggi, misalnya untuk matriks (tensor orde-2) atau tensor lebih tinggi. Untuk matriks, produk titik biasanya disebut **produk matriks**, dan di PyTorch, fungsi seperti `torch.matmul()` atau operator `@` bisa digunakan untuk menghitung produk matriks.
 
-### **Kesimpulan:**
+### **Penting!**
 - Produk titik antara dua vektor mengukur hubungan antara keduanya dan menghasilkan sebuah nilai skalar.
 - Dalam notasi, produk titik bisa ditulis sebagai $\mathbf{x} \cdot \mathbf{y}$, $\mathbf{x}^T \mathbf{y}$, atau $\langle \mathbf{x}, \mathbf{y} \rangle$.
 - Di PyTorch, produk titik dapat dihitung menggunakan `torch.dot()` atau operator `@` untuk dua vektor 1D.
@@ -1420,7 +1417,7 @@ Terdapat beberapa metode untuk menyelesaikan sistem persamaan linear, yang palin
 
 Metode substitusi adalah teknik di mana kita menyelesaikan salah satu persamaan untuk satu variabel, kemudian menggantikan variabel tersebut dalam persamaan lainnya.
 
-#### Langkah-langkah Substitusi:
+#### Langkah-langkah Substitusi
 
 1. **Pilih salah satu persamaan** dalam sistem dan selesaikan untuk salah satu variabel.
 2. **Substitusikan** hasil dari variabel yang sudah diselesaikan ke dalam persamaan lainnya.
@@ -1472,7 +1469,7 @@ Jadi, solusi dari sistem persamaan ini adalah $x = 2$ dan $y = 3$.
 
 Metode eliminasi, juga dikenal dengan **Metode Gauss**, adalah teknik yang digunakan untuk menghilangkan satu variabel dengan cara menambahkan atau mengurangkan persamaan sehingga satu variabel hilang. Kemudian, kita menyelesaikan sistem persamaan yang lebih sederhana.
 
-#### Langkah-langkah Eliminasi:
+#### Langkah-langkah Eliminasi
 
 1. **Tulis sistem persamaan** dalam bentuk standar.
 2. **Kalikan persamaan** jika diperlukan untuk membuat koefisien variabel yang sama.
@@ -1520,7 +1517,7 @@ Jadi, solusi dari sistem ini adalah $x = 2$ dan $y = 3$.
 
 ---
 
-### **Perbandingan Antara Substitusi dan Eliminasi:**
+### **Perbandingan Antara Substitusi dan Eliminasi**
 
 - **Substitusi** lebih berguna ketika salah satu variabel dapat dengan mudah diisolasi dalam persamaan, sementara **eliminasi** lebih efisien saat koefisien variabel lebih mudah disesuaikan atau jika ada banyak variabel.
 - **Eliminasi** cenderung lebih cepat ketika bekerja dengan sistem persamaan linear dengan lebih dari dua variabel.
@@ -1602,11 +1599,11 @@ Jadi, norma Frobenius dari matriks $A$ adalah $\sqrt{30} \approx 5.477$.
 
 Norma Frobenius sering digunakan dalam berbagai aplikasi dalam machine learning, khususnya dalam optimasi dan pembelajaran mesin. Beberapa contohnya adalah:
 
-1. **Regularisasi Matriks**: Dalam metode pembelajaran mesin, norma Frobenius dapat digunakan sebagai bagian dari regularisasi untuk mencegah overfitting. Regularisasi ini dapat membantu mengontrol besar elemen-elemen dalam matriks, seperti dalam kasus pembelajaran dengan matriks bobot dalam jaringan saraf.
+1. **Regularisasi Matriks**. Dalam metode pembelajaran mesin, norma Frobenius dapat digunakan sebagai bagian dari regularisasi untuk mencegah overfitting. Regularisasi ini dapat membantu mengontrol besar elemen-elemen dalam matriks, seperti dalam kasus pembelajaran dengan matriks bobot dalam jaringan saraf.
   
-2. **Perbandingan Matriks**: Norma Frobenius dapat digunakan untuk membandingkan dua matriks, misalnya untuk mengukur seberapa besar perbedaan antara dua matriks yang dihasilkan selama proses pelatihan.
+2. **Perbandingan Matriks**. Norma Frobenius dapat digunakan untuk membandingkan dua matriks, misalnya untuk mengukur seberapa besar perbedaan antara dua matriks yang dihasilkan selama proses pelatihan.
 
-3. **Penyelesaian Masalah Optimasi**: Dalam metode optimasi, norma Frobenius sering digunakan untuk mengukur ukuran dari gradien atau error matriks.
+3. **Penyelesaian Masalah Optimasi**. Dalam metode optimasi, norma Frobenius sering digunakan untuk mengukur ukuran dari gradien atau error matriks.
 
 ### **Contoh Penggunaan Norma Frobenius di PyTorch**
 
@@ -1636,7 +1633,7 @@ print("Norma Frobenius dari A:", frobenius_norm)
 
 Perkalian matriks dengan vektor adalah operasi matematika yang melibatkan matriks dan vektor. Ini sangat umum digunakan dalam berbagai aplikasi, terutama dalam machine learning, terutama dalam operasi linear dan transformasi.
 
-#### Langkah-langkah Perkalian Matriks dengan Vektor:
+#### Langkah-langkah Perkalian Matriks dengan Vektor
 Misalkan kita memiliki matriks $A$ berukuran $m \times n$ dan vektor $b$ berukuran $n$, maka hasil perkalian matriks $A$ dengan vektor $b$ adalah vektor $c$ yang berukuran $m$, dengan setiap elemen $c_i$ dihitung sebagai produk titik (dot product) antara baris $i$ dari matriks $A$ dan vektor $b$.
 
 Jika $A = \begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \\ \end{bmatrix}$ dan $b = \begin{bmatrix} b_1 \\ b_2 \end{bmatrix}$, maka hasil perkaliannya adalah:
@@ -1644,7 +1641,7 @@ $$
 c = A \cdot b = \begin{bmatrix} a_{11}b_1 + a_{12}b_2 \\ a_{21}b_1 + a_{22}b_2 \end{bmatrix}
 $$
 
-### Contoh dengan **NumPy**:
+### Contoh dengan **NumPy**
 
 1. Matriks $A$ dan vektor $b$ didefinisikan sebagai berikut:
    ```python
@@ -1665,7 +1662,7 @@ $$
 
    Hasil perkaliannya adalah vektor $[11, 17, 23]$, yang didapat dengan menjumlahkan produk elemen baris matriks $A$ dengan vektor $b$.
 
-### Contoh dengan **PyTorch**:
+### Contoh dengan **PyTorch**
 
 1. Matriks $A$ dan vektor $b$ didefinisikan sebagai tensor PyTorch:
    ```python
@@ -1686,7 +1683,7 @@ $$
 
    Sama seperti di NumPy, hasil perkaliannya adalah tensor $[11, 17, 23]$.
 
-### Contoh dengan **TensorFlow**:
+### Contoh dengan **TensorFlow**
 
 1. Matriks $A$ dan vektor $b$ didefinisikan sebagai variabel TensorFlow:
    ```python
@@ -1747,7 +1744,7 @@ Dengan kata lain, elemen $C_{ij}$ diperoleh dengan mengalikan setiap elemen bari
    \begin{bmatrix} 11 & 27 \\ 17 & 45 \\ 23 & 63 \end{bmatrix}
   $$
 
-### Penjelasan Hasil:
+### Penjelasan Hasil
 
 - Untuk elemen pertama $C_{11}$ dihitung sebagai:
   $$
