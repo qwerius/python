@@ -1,7 +1,13 @@
 <img src="/python.webp" alt="logo" style="margin-bottom: 30px;"/>
 
 
-# Dasar Pemrograman Python
+<div class="flex flex-row">
+
+<div class="flex items-center  rounded-lg gap-4">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Logo" class="h-10 w-10">
+  <H1 class="flex items-center"> Dasar Pemprograman Python</H1>
+</div>
+</div>
 
 ## Pengantar
 

@@ -1,24 +1,33 @@
-# Go Language (Golang)
+
+<img src="/bajak_laut.webp" alt="go" class="flex items-center"/>
+
+# Golang
+
 ## Golang dan Python
-Golang dan Python bisa dikolaborasikan untuk membangun sistem yang lebih efisien, scalable, dan cepat. Penggunaan Go dalam ekosistem Python biasanya untuk mempercepat komputasi, membangun backend API, menggunakan gRPC, atau membuat pustaka performa tinggi yang bisa digunakan oleh Python.
+Golang (GO Language) dan Python bisa dikolaborasikan untuk membangun sistem yang lebih efisien, scalable, dan cepat. Penggunaan Go dalam ekosistem Python biasanya untuk mempercepat komputasi, membangun backend API, menggunakan gRPC, atau membuat pustaka performa tinggi yang bisa digunakan oleh Python.
 
-##### Kapan Menggunakan Go? 
 
-✅ Backend API yang scalable dan cepat
-✅ Memproses data besar dengan efisien
-✅ Menggunakan paralelisme (goroutine lebih efisien daripada Python threading)
-✅ Membuat pustaka sistem-level (misalnya shared libraries)
 
-##### Kapan Menggunakan Python?
+<div class="flex flex-col space-y-2">
+<H3 class="py-2">Kapan Menggunakan Go?</H3>
+  <div>✅ <span class="font-semibold">Backend API</span> yang scalable dan cepat</div>
+  <div>✅ Memproses data besar dengan efisien</div>
+  <div>✅ Menggunakan <span class="font-semibold">paralelisme</span> (goroutine lebih efisien daripada Python threading)</div>
+  <div>✅ Membuat <span class="font-semibold">pustaka sistem-level</span> (misalnya shared libraries)</div>
+</div>
 
-✅ Data Science dan Machine Learning
-✅ Skrip automasi dan prototyping cepat
-✅ Analisis data dengan Pandas dan NumPy
-✅ Backend dengan kebutuhan fleksibilitas tinggi
+<div class="flex flex-col space-y-2 py-2">
+<H3 class="py-2">Kapan Menggunakan Python?</H3>
+  <div>✅ <span class="font-semibold">Data Science</span> dan Machine Learning</div>
+  <div>✅ Skrip automasi dan prototyping cepat</div>
+  <div>✅ Analisis data dengan <span class="font-semibold">Pandas</span> dan <span class="font-semibold">NumPy</span></div>
+  <div>✅ Backend dengan kebutuhan fleksibilitas tinggi</div>
+</div>
+
 
 ## **Dasar-Dasar Sintaks Go**
 
-### **1\. Struktur Program Go**
+### **1. Struktur Program Go**
 
 Program Go memiliki struktur dasar yang terdiri dari:
 

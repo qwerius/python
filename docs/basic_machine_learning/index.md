@@ -1,5 +1,5 @@
 # Machine Learning Dasar
-**Aljabar Linear**, **Kalkulus**, **Probabilitas**, **Statistik**, **Optimisasi**, dan **Neural Networks (jaringan saraf buatan)** adalah beberapa konsep dasar yang sangat penting dalam machine learning. Namun, selain itu ada beberapa konsep lainnya yang juga sering digunakan, tergantung pada konteks aplikasi dan teknik yang digunakan dalam machine learning. Dasar-dasar machine learning meliput:
+**Aljabar Linear**, **Kalkulus**, **Probabilitas**, **Statistik**, **Optimisasi**, dan **Neural Networks (jaringan saraf buatan)** adalah beberapa konsep dasar yang sangat penting dalam machine learning. Namun, selain itu ada beberapa konsep lainnya yang juga sering digunakan, tergantung pada konteks aplikasi dan teknik yang digunakan dalam machine learning. Dasar-dasar machine learning meliputi berikut:
 
 ## 1. **Aljabar Linear**
    - Digunakan untuk menangani data yang berbentuk vektor, matriks, dan tensor, serta untuk memahami konsep seperti regresi linier, PCA (Principal Component Analysis), dan transformasi linear.

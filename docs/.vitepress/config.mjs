@@ -52,7 +52,7 @@ export default defineConfig({
               collapsible: true,
               collapsed: true,
             },
-            { text: "Pandas", items: [], collapsible: true, collapsed: true },
+            { text: "Pandas", items: [{text: "Pandas", link: "/dasar_python/pandas"}, {text: "Dask", link: "/dasar_python/dask"}], collapsible: true, collapsed: true },
             { text: "Matplotlib", items: [], collapsible: true, collapsed: true },
             { text: "Seaborn", items: [], collapsible: true, collapsed: true },
             { text: "Scipy", items: [], collapsible: true, collapsed: true },
