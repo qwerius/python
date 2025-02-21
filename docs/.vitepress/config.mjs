@@ -90,6 +90,10 @@ export default defineConfig({
           text: "Basic Machine Learning",
           items: [{ text: "Umum", link: "/basic_machine_learning/" },
             {
+              text: "Fundamental",
+              link: "/basic_machine_learning/fundamental",
+            },
+            {
               text: "Aljabar Linear",
               link: "/basic_machine_learning/aljabar_linear",
             },

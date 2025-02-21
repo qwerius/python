@@ -1,1 +1,0 @@
-import{_ as n,c as s,ag as e,o as p}from"./chunks/framework.9GNIKSP0.js";const g=JSON.parse('{"title":"Vue3","description":"","frontmatter":{},"headers":[],"relativePath":"vue/index.md","filePath":"vue/index.md"}'),i={name:"vue/index.md"};function t(l,a,o,d,c,u){return p(),s("div",null,a[0]||(a[0]=[e("",2)]))}const k=n(i,[["render",t]]);export{g as __pageData,k as default};
