@@ -119,7 +119,8 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]*/
     footer: {
-      message: "blueink.id",
+      message: "PT. Blueink ArtTech Labs",
+      
       copyright: "Copyright © 2025",
     },
     search: {
