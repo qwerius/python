@@ -11,6 +11,21 @@ export default defineConfig({
     ["link", { rel: "icon", href: "/logo.png" }],
     ["title", {}, "blueink"], // Paksa title kosong di HTML
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.16.3/dist/katex.min.css' }],
+    // Meta SEO
+    ["meta", { name: "robots", content: "index, follow" }],
+    ["meta", { name: "author", content: "Blueink ArtTech Labs" }],
+    ["meta", { name: "keywords", content: "blueink, machine learning, python, AI, deep learning" }],
+    ["meta", { property: "og:title", content: "blueink - DevImpact" }],
+    ["meta", { property: "og:description", content: "Platform pembelajaran seputar Machine Learning, Python, dan AI." }],
+    ["meta", { property: "og:image", content: "/logo.png" }],
+    ["meta", { property: "og:url", content: "https://blueink.my.id" }],
+    ["meta", { name: "twitter:card", content: "summary_large_image" }],
+    ["meta", { name: "twitter:title", content: "blueink - DevImpact" }],
+    ["meta", { name: "twitter:description", content: "Platform pembelajaran seputar Machine Learning, Python, dan AI." }],
+    ["meta", { name: "twitter:image", content: "/logo.png" }],
+
+    // Sitemap
+    ["link", { rel: "sitemap", type: "application/xml", href: "/sitemap.xml" }],
   ],
   markdown: {
     math: true,
@@ -19,6 +34,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/logo.png",
+    appearance: 'dark',
     title: "",
     nav: [
       { text: "Home", link: "/" },
